@@ -61,6 +61,6 @@ cp ../../local.conf conf/local.conf
 #bitbake-layers add-layer ../meta-browser
 
 
-#bitbake core-image-minimal-xfce
+bitbake core-image-minimal-xfce
 
 #sudo dd if=tmp/deploy/images/raspberrypi3-64/core-image-sato-raspberrypi3.rpi-sdimg of=/dev/sdX
