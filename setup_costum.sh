@@ -45,9 +45,9 @@ git clone git://github.com/OSSystems/meta-browser.git
 echo "----------------- Setting up build enviroment -----------------"
 source ./oe-init-build-env
 
-cp ../bblayers.conf conf/bblayers.conf
+cp ../../bblayers.conf conf/bblayers.conf
 
-cp ../local.conf conf/local.conf
+cp ../../local.conf conf/local.conf
 
 #bitbake-layers add-layer ../meta-raspberrypi
 #bitbake-layers add-layer ../meta-openembedded/meta-oe
